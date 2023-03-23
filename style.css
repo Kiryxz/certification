@@ -1,0 +1,256 @@
+
+.header{
+    display: flex;
+    position: absolute;
+    width: 1854px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #AA8080;
+}
+
+.first-child{
+    color: #ffcbcb;
+}
+.nav-menu{
+    position: absolute;
+    width: 1532px;
+    height: 48px;
+    left: 128px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+ul li {
+    display: flex;
+    display: inline-block;
+}
+
+ul a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #331010;
+    padding-left: 63px;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    width: 122px;
+    height: 69px;
+    left:20px;
+}
+
+.stephen{
+    display: block;
+    display: flex;
+    background: url(images/stephen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1854px;
+    height: 977px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.d1{
+    position: absolute;   
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;  
+    color: #970000;    
+}
+
+.d2{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center; 
+    color: #970000;
+}
+
+.stephen-text{
+    position: absolute;
+    top: 190px;
+    width: 355px;
+    height: 166px;
+}
+
+.svet1{
+    position: absolute;
+    width: 1854px;
+    height: 977px;
+    left: 0px;
+    top: px;
+    background: rgba(217, 217, 217, 0.16);
+}
+
+.main{
+    position: absolute;
+    width: 1832px;
+    height: 1016px;
+    left: 0px;
+    top: 995px;
+}
+
+.books{
+    width:1855px;
+    height: 100%;
+    background: url(images/books.jpg);
+
+}
+
+.svet{
+    position: absolute;
+    width: 1854px;
+    height: 1016px;
+    background: rgba(217, 217, 217, 0.22);   
+}
+.avatar{
+    position: absolute;
+    width: 520px;
+    height: 739px;
+    left: 26px;
+    top: 40px;
+}
+
+aside p{
+    position: relative;
+    z-index: 1;
+    top: 44px;
+    left:1424px;
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-size: 40px;
+    
+    color: #ffffff;
+}
+.text{
+    position: absolute;
+    left: -786px;
+    width: 1211px;
+    height: 318px;
+    color: #ffffff; 
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+}
+
+.footer{
+    position: absolute;
+    width: 1854px;
+    height: 198px;
+    left: 0px;
+    top: 1920px;
+    background: #8F6C6C;
+}
+
+.footer p{
+    text-align: center;
+    color: #C2C2C2;
+    position: relative;
+    top: 89px;
+}
+
+
+@media screen and (max-width:) {
+    
+}
+
+
+   <main class="main">
+    <div class="background-books"></div>
+    <section>
+        <img src="images/avatar.jpg" alt="" class="avatar">
+    </section>
+
+    <aside class="text">
+        <p>Стивена Кинга часто называют «Королем ужасов», </p>
+        <p>потому что в основном его произведения написаны в жанре </p>
+        <p>хоррор Он автор 56 романов, 200 рассказов, пяти книг </p>
+        <p>на научно-популярную тематику. Его книги продаются </p>
+        <p>миллионными тиражами и пользуются неизменным </p>
+        <p>успехом у читателей разных поколений.</p>
+    </aside>
+
+   </main>
+
+   position:relative;
+   bottom: 1700px;
+   margin-left:600px;
+
+
+   <nav class="nav-menu">
+            <ul id="menu">
+                <li><img src="images/logo1.png" alt="" class="logo"></li> 
+                <li class="menu-child first-child"><a href="#">Главная</a></li>
+                <li class="menu-child"><a href="#">Биография</a></li>
+                <li class="menu-child"><a href="#">Библиография</a></li>
+                <li class="menu-child"><a href="#">Экранизации</a></li>
+                <li class="menu-child"><a href="#">Премии</a></li>
+            </ul>
+        </nav>
+
+
+        .header{
+            width: 1882px;
+            height: 80px;
+            background: #8F6C6C;
+            margin: -20px;
+        
+        }
+        
+        .logo{
+            width: 100px;
+            height: 50px;
+        }
+        
+        #menu{
+            width: 100%;
+            background-color: #8F6C6C;
+            background-size: cover;
+            display: table;
+            margin-left: 0;
+        }
+        
+        #menu li{
+            display: block;
+            float: left;
+            margin: 10px;
+        }
+        
+        #menu li a{
+            display: table;
+            padding: 0 20px;
+            height: 50px;
+            text-align: left;
+            color: #331010;
+            font-family: 'PT Serif Caption';
+            font-style: italic;
+            font-size: 32px;
+            line-height: 42px;
+            border-right: 1px solid black;
+            text-decoration: none;
+            transition: 0.5s;
+        
+        }
+        
+        #menu li:hover a{
+            background-color: #a77e7e;
+        }

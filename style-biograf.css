@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #8F6C6C;
+}
+.nav {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .logo {
+    height: 70px;
+    width: 130px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+  
+  .list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+  }
+
+
+.list a{
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    
+    color: #331010;    
+}
+
+  .item {
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  .item:hover {
+    background-color: rgb(253, 199, 199);
+    color: #fff;
+    cursor: pointer;
+  }
+  .item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .link {
+    text-decoration: none;
+  }
+
+
+.main{
+    width: 100%;
+    height: 691px;
+    border-bottom: 1px solid black;
+    background-color: ;
+}
+
+.avatar{
+    width: 528px;
+    height: 626px;
+    margin-left: 53px;
+    margin-top: 63px;
+}
+
+.aside{
+    display: flex;
+    margin-top: -600px;
+    margin-left: 600px;
+}
+
+.title{
+    margin-top: -40px;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;  
+    color: #FFFFFF;
+    margin-left: 300px;
+}
+
+.small-biograf{
+    margin-top: 30px;
+    margin-left: -400px;
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.b-child{
+    width: 350px;
+    text-align: center;
+    padding-top: 40px;
+}
+#b-child1{
+    line-height: 24px;
+}
+#b-child2{
+    line-height: 24px;
+}
+#b-child3{
+    line-height: 24px;
+    
+}
+#b-child4{
+    line-height: 24px;
+}
+
+#b-child5{
+    line-height: 24px;
+}
+
+.small-biograf p not br{
+    color: #BCBCBC;
+
+}
+
+.albom{
+    width: 100%;
+    height: 367px;
+    display: flex;
+    margin-left: -62px;
+    margin-top: 157px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.photo{
+    width: 327px;
+    height: 218px;
+    justify-content: space-between;
+    padding-left: 117px;
+}
+
+.biograf{
+    width: 100%;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    
+    color: #FFFFFF;    
+}
+
+.biograf h2{
+    text-align: center;
+}
+
+.footer{
+    background-color: #725757;
+    margin-top: 30px;
+}
+
+.footer p{
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 41px; 
+    color: #C2C2C2;   
+    text-align: center; 
+}
+
+
+@media screen and (max-width: 1350px) {
+    .list {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .item {
+      margin: 0 !important;
+      padding: 5px 0;
+      text-align: center;
+    }
+  
+    .logo {
+      display: none;
+    }
+    .link {
+      display: block;
+    }
+
+    .avatar{
+        width: 328px;
+        height: 428px;
+    }
+
+    .title{
+        margin-top: 150px;
+        margin-left: 40px;
+     }
+
+     .small-biograf{
+        margin-top: 230px;
+     }
+
+     .albom{
+        flex-wrap: wrap;
+        border-top: 0px;
+        border-bottom: 0px ;
+     }
+
+     .biograf{
+        width: 100%;
+        margin-top: 80px;
+        font-size:18px ;
+        margin-left: 50px;
+     }
+
+    }
+
+
+@media screen and (max-width: 900px) {
+    .avatar{
+        width: 228px;
+        height: 328px;  
+    }
+    .aside{
+        margin-top: -550px;
+    }
+    .title{
+        font-size: 30px;
+        margin-top: 350;
+        margin-left: -200px;
+    }
+
+    .small-biograf{
+        margin-left: -335px;
+    }
+
+    .albom{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 695px){
+    .title{
+        font-size: 22px;
+        margin-top: 210px;
+    }
+
+    .small-biograf{
+        font-size: 20px;
+    }
+    .b-child{
+        padding-top: 20px;
+        margin-top: 25px;
+        margin-left: 60px;
+
+}
+
+}
